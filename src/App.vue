@@ -23,6 +23,8 @@ export default {
 </script>
 
 <style>
+html { overflow:hidden!important; }
+
 .base-container {
   background: linear-gradient(#09f, #003280);
 }
