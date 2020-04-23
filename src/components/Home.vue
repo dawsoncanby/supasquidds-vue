@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid class="fill-height pa-0 base-container">
+  <v-container fluid fill-height class="pa-0">
     <div class="background-image"></div>
     <v-row class="z-1">
       <v-col class="text-center">
@@ -29,7 +29,7 @@ export default {
   background: url('../assets/wave.svg') repeat-x;
   position: absolute;
   top: 0;
-  height: 100px;
+  height: 100px; 
   width: 200%;
   animation: slide 40s linear infinite;
  }
