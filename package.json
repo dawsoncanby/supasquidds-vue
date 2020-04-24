@@ -1,11 +1,11 @@
 {
-  "homepage": "http://dawsoncanby.github.io/supasquidds-vue",
+  "homepage": "supasquidds.com",
   "name": "supasquidds-vue",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && echo 'supasquidds.com' > dist/CNAME",
     "deploy": "gh-pages -d dist",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
