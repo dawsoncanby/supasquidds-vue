@@ -8,6 +8,7 @@ html {
 body {
     margin: 0;
     width: 100%;
+    font-family: Verdana, sans-serif;
 }
 
 img {
@@ -43,9 +44,7 @@ a:visited {
     position: relative;
     margin: auto;
     width: 75vw;
-    height: 75vw;
     max-width: 500px;
-    max-height: 500px;
 }
 
 .icon-container {
@@ -125,3 +124,12 @@ a:visited {
     }
 }
 
+.sc-button {
+    background-color: #ff5500;
+    text-color: white;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    letter-spacing: 5px;
+}
